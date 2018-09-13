@@ -143,7 +143,17 @@ Controllers should be thin because controller code can’t be reused
 
 # Project structure
 
-* **Solution**
-    * **Core** (Business or Domain Layer Project)
-    * **Data** (Data Access Layer Project)
-    * **UI** (UI/API Layer Project)
+- **Solution**
+    - **Core** (Business or Domain Layer Project)
+        - Loans
+            - Services
+                - LoanServices.php
+            - Notifications
+                - LoanMailable.php
+    - **Data** (Data Access Layer Project)
+        - Loans
+            - Repositories
+                - LoanRepository.php
+            Loan.php
+                
+    - **UI** (UI/API Layer Project)
