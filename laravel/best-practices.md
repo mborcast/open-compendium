@@ -143,7 +143,7 @@ Controllers should be thin because controller code can’t be reused
 
 # Project structure
 
-* Solution
-    * Core (Business or Domain Layer Project)
-    * Data (Data Access Layer Project)
-    * UI (UI/API Layer Project)
+* **Solution**
+    * **Core** (Business or Domain Layer Project)
+    * **Data** (Data Access Layer Project)
+    * **UI** (UI/API Layer Project)
